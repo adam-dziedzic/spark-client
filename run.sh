@@ -1,0 +1,1 @@
+../spark/bin/spark-submit --jars ../../workspace/SparkDataSourceAPI/target/scala-2.11/sparkdatasourceapi_2.11-0.1.jar --class "edu.uchicago.cs.data.client.app" --master local[4] target/scala-2.11/sparkdatasourceapiclient_2.11-0.1.jar
